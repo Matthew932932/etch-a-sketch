@@ -1,0 +1,16 @@
+.container {
+    max-width: 800px;
+    margin: 0, auto;
+    border: 1px solid red;
+}
+
+.row {
+    display: flex;
+    height: 50px;
+    border: 1px solid red;
+}
+
+.column {
+    width: 50px;
+    border: 1px solid red;
+}
