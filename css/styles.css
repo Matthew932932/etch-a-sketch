@@ -1,16 +1,31 @@
 .container {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0, auto;
     border: 1px solid red;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .row {
     display: flex;
-    height: 50px;
-    border: 1px solid red;
+    /* height: 10px; */
+    /* border: 1px solid red; */
+    flex: auto;
 }
 
 .col {
-    width: 50px;
-    border: 1px solid red;
+    display: flex;
+    /* width: 50px; */
+    /* border: 1px solid red; */
+    flex: 1;
+}
+
+#inp-num {
+    width: 100px;
+} 
+
+#btn {
+    width: 150px;
 }
